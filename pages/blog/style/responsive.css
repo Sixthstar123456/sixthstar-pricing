@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .sticky-sidebar {
+      position: static;
+      margin-bottom: 2rem;
+    }
+    .secure-authentication-column h1, p{
+      padding: 10px;
+    }
+  }

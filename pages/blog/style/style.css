@@ -1,0 +1,120 @@
+.article-banner img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .article-header h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .article-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  .article-content p {
+    text-align: justify;
+  }
+  .article-content img {
+    margin: 20px 0;
+  }
+  
+  .btn-secondary {
+    background-color: #1590fc;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  .sticky-sidebar {
+    position: sticky;
+    top: 125px;
+  }
+  
+  .article-content h2 {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+  }
+  .article-content h3 {
+    font-size: 1.4rem;
+  
+  }
+  .article-content h4 {
+    font-size: 1.1rem;
+    
+  }
+  .article-content ol li {
+    list-style: decimal;
+  }
+  .article-content ol li::marker {
+    font-weight: 500;
+  }
+  .author-avatar {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .author-avatar i{
+    color:#0d6efd;
+  }
+  .cta-section {
+    padding: 2rem;
+  }
+  .blog-banner-sec {
+    height: 350px;
+    align-content: center;
+    background-image: url("https://res.cloudinary.com/daggx9p24/image/upload/v1733461853/blue-bg_ke0nsw.png");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  .blog-banner-sec h1{
+    color: white;
+    text-align: center;
+    padding: 20px ;
+    font-weight: 600;
+    font-size: 45px;
+  }
+  .blog-banner-sec p{
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+    font-size:20px;
+  }
+  .display-4 {
+    font-size: 35px;
+  }
+  .card-img-top {
+    height:220px;
+  }
+  .post-banner-sec {
+    height:350px;
+    align-content: center;
+    background-image: url("https://res.cloudinary.com/daggx9p24/image/upload/v1733461853/blue-bg_ke0nsw.png");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  .post-banner-sec h1{
+    color:white;
+    text-align: center;
+  }
+
+  .card-title {
+    line-height: 1.5em;
+    height: 3em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;  /* prevents extra lines from being visible */
+  }
+
+  /* snow effects */
+ 
+  .blog-category button:nth-of-type(2){
+    display: none;
+  }
+
+
+  
